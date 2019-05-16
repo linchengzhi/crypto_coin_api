@@ -1,8 +1,8 @@
 package zaif
 
 import (
+	. "crypto_coin_api"
 	"fmt"
-	. "github.com/nntaoli/crypto_coin_api"
 	"log"
 	"net/http"
 	"sort"

@@ -1,15 +1,15 @@
 package builder
 
 import (
-	. "github.com/nntaoli/crypto_coin_api"
-	"github.com/nntaoli/crypto_coin_api/chbtc"
-	"github.com/nntaoli/crypto_coin_api/coincheck"
 	"context"
-	"github.com/nntaoli/crypto_coin_api/huobi"
-	"github.com/nntaoli/crypto_coin_api/okcoin"
-	"github.com/nntaoli/crypto_coin_api/poloniex"
-	"github.com/nntaoli/crypto_coin_api/yunbi"
-	"github.com/nntaoli/crypto_coin_api/zaif"
+	. "crypto_coin_api"
+	"crypto_coin_api/chbtc"
+	"crypto_coin_api/coincheck"
+	"crypto_coin_api/huobi"
+	"crypto_coin_api/okcoin"
+	"crypto_coin_api/poloniex"
+	"crypto_coin_api/yunbi"
+	"crypto_coin_api/zaif"
 	"github.com/qiniu/log"
 	"net"
 	"net/http"
